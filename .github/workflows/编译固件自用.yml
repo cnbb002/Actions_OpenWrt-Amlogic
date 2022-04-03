@@ -147,13 +147,13 @@ jobs:
         body: |
           ### **适用于Amlogic盒子的OpenWrt固件**
           * **固件信息：**
-          默认IP: 10.10.10.1
+          默认IP: 192.168.1.254
           默认用户名: root
           默认密码: password
           * **更新说明：**
           个人自用极精简固件
           旁路由、passwall、openclash、docker
-          adg、网易云解锁、ddns
+          adg、网易云解锁、ddns、USB打印服务、Rclone
 
     - name: 清理Actions空间
       uses: Mattraks/delete-workflow-runs@main
